@@ -55,7 +55,7 @@ open class BaseCallbackApi<T>(val context: Context) : Callback<T> {
             Util.alert(context, "Falha", "Servidor indisponível, por favor tente mais tarde.")
         } else if (statusCode == 401) {
             if (isLogin) {
-                Util.alert(context, "Falha", "CPF ou senha incorreto")
+                Util.alert(context, "Falha", "E-mail ou senha incorreto")
             } else {
                 /* TODO: Refresh Token */
             }
