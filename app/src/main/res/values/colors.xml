@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFCA05</color>
+    <color name="colorPrimaryDark">#FFCA05</color>
+    <color name="colorAccent">#aaffca05</color>
+
+    <color name="gray_app">#E4E4E4</color>
+    <color name="gray_strong_app">#979797</color>
+    <color name="black_app">#000000</color>
+    <color name="white_app">#FFFFFF</color>
+</resources>

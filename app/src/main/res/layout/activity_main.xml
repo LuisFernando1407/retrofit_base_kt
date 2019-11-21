@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="33dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="Retrofit Base KT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textColor="@color/black_app"
+                android:textStyle="bold"
+                android:text="Acessar minha conta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_marginTop="40dp"
+                android:hint="E-mail"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/bg_edit_text_gray"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_marginTop="20dp"
+                android:hint="Senha"
+                android:inputType="textPassword"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:imeOptions="actionDone"
+                android:background="@drawable/bg_edit_text_gray"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="@color/black_app"
+                android:id="@+id/enter"
+                android:text="Entrar"
+                android:background="@drawable/bg_button_success"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="@color/black_app"
+                android:id="@+id/exit"
+                android:text="Sair"
+                android:background="@drawable/bg_edit_text_gray"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <View
+                android:layout_marginTop="30dp"
+                android:layout_width="40dp"
+                android:layout_height="5dp"
+                android:background="@color/gray_app"
+                />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
